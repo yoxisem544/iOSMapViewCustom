@@ -13,6 +13,8 @@
 		633838161A821417007F92DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633838151A821417007F92DD /* Images.xcassets */; };
 		633838191A821417007F92DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633838171A821417007F92DD /* LaunchScreen.xib */; };
 		633838251A821418007F92DD /* BrimoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633838241A821418007F92DD /* BrimoTests.swift */; };
+		633838691A824B22007F92DD /* BRIMO_ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 633838681A824B22007F92DD /* BRIMO_ICON.png */; };
+		63621A9D1A88DF0300A7B3DB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63621A9C1A88DF0300A7B3DB /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6338381E1A821418007F92DD /* BrimoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrimoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633838231A821418007F92DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633838241A821418007F92DD /* BrimoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrimoTests.swift; sourceTree = "<group>"; };
+		633838681A824B22007F92DD /* BRIMO_ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRIMO_ICON.png; sourceTree = "<group>"; };
+		63621A9C1A88DF0300A7B3DB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63621A9D1A88DF0300A7B3DB /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +64,11 @@
 		633838001A821417007F92DD = {
 			isa = PBXGroup;
 			children = (
+				63621A9C1A88DF0300A7B3DB /* Social.framework */,
 				6338380B1A821417007F92DD /* Brimo */,
 				633838211A821418007F92DD /* BrimoTests */,
 				6338380A1A821417007F92DD /* Products */,
+				633838681A824B22007F92DD /* BRIMO_ICON.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +201,7 @@
 			files = (
 				633838141A821417007F92DD /* Main.storyboard in Resources */,
 				633838191A821417007F92DD /* LaunchScreen.xib in Resources */,
+				633838691A824B22007F92DD /* BRIMO_ICON.png in Resources */,
 				633838161A821417007F92DD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				6338382A1A821418007F92DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6338382B1A821418007F92DD /* Build configuration list for PBXNativeTarget "BrimoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				6338382D1A821418007F92DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
